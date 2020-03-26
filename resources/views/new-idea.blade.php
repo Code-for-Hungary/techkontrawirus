@@ -51,7 +51,7 @@
 
 @section('content')
     <div id="new-idea" class="container">
-        <h3 class="mt-4 mb-5 text-center">Adj hozzá ötletet!</h3>
+        <h3 class="mt-4 mb-5 text-center">Adj hozzá új ötletet!</h3>
 
         <form-wizard submit-url="/nowy-pomysl">
             <template v-slot:csrf>@csrf</template>
