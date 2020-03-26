@@ -45,7 +45,7 @@
                     <p class="brand"><a href="/"><span class="icon-shield"></span> Tech Kontra Vírus</a></p>
                 </div>
                 <div class="d-flex align-items-center font-larger">
-                    <a href="#" v-b-modal.faq><b>Jak to działa?</b></a>
+                    <a href="#" v-b-modal.faq><b>Gyakran ismételt kérdések</b></a>
                 </div>
             </div>
 
@@ -84,8 +84,9 @@
     <footer id="footer" class="d-flex flex-row justify-content-center align-items-center">
         <cookie-law button-text="OK">
             <div slot="message">
-                Nasz serwis wykorzystuje pliki cookies celem zapamiętania wyborów Użytkownika, oraz analityki ruchu.
-                Jeśli nie wyrażasz na to zgody, możesz zmienić ustawienia cookie w swojej przeglądarce.
+                Az oldal sütiket használ, hogy emlékezzen a felhasználók korábbi választásaira és lehtővé tegye a forgalmi adatok elemzését.
+                Ha nem értesz egyet, változtasd meg a böngésződ a süti beállításait.
+
             </div>
         </cookie-law>
         <span class="mr-2">&copy; 2020</span><a href="https://epf.org.pl"><img src="/img/logo-epanstwo.svgz" class="d-block ml-2" width="124" height="42" alt="Fundacja ePanstwo"></a>
