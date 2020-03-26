@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', "Tech kontra wirus | Pomysł nr $idea->id")
+@section('title', "Tech kontra vírus | Ötlet nr $idea->id")
 
 @section('styles')
 @endsection
@@ -13,17 +13,18 @@
     <div id="idea" class="container">
 
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Powrót na stronę główną</a></li>
+            <li class="breadcrumb-item"><a href="/">Ötletek</a></li>
+            <li class="breadcrumb-item active">Ötlet</li>
         </ol>
 
         @if ($is_new_idea)
             <b-alert variant="primary" :show="true" :dismissible="true">
-                Dziękujemy za dodanie pomysłu
+                Köszi, hogy küldtél be ötlet javaslatot!
             </b-alert>
         @endif
         @if ($has_new_comment)
             <b-alert variant="primary" :show="true" :dismissible="true">
-                Dziękujemy za dodanie komentarza
+                Köszi a hozzászólást
             </b-alert>
         @endif
 
@@ -49,21 +50,19 @@
 
                 <div class="description pb-4 mb-4">{{ $idea->description }}</div>
 
-                <div class="mb-4"><b>Jaki widzisz problem/potrzebę?</b><br/>{{ $idea->problem }}</div>
-                <div class="mb-4"><b>Kogo ten problem dotyczy? Kto miałby skorzystać z rozwiązania?</b><br/>{{ $idea->recipients }}</div>
-                <div class="mb-4"><b>Jaką masz propozycję rozwiązania tego problemu czy potrzeby?</b><br/>{{ $idea->solution }}</div>
+                <div class="mb-4"><b>Hol a probléma/szükséglet?</b><br/>{{ $idea->problem }}</div>
+                <div class="mb-4"><b>Kik az érintettek? Ki fogja használni az eszközt?</b><br/>{{ $idea->recipients }}</div>
+                <div class="mb-4"><b>Mi a te javaslatod a probléma/szükséglet megoldására?</b><br/>{{ $idea->solution }}</div>
             </div>
         </div>
 
         <div class="limit-width">
             <p class="mt-5 mb-5">
-                Wykorzystaj komentarze do promowania pomysłu i rozwijania go z innymi. Ustaliliście co chcecie robić?
-                Stwórz wątek na <a href="https://forum.kodujdlapolski.pl/c/tech-kontra-wirus">forum Koduj dla Polski</a>
-                i umieść link do niego w komentarzach poniżej.
+                Használd a hozzászólásokat az ötlet népszerűsítésére és a másokkal közös fejlesztésre. Ha már megegyezésre jutottatok a részletekről, hozz létre egy csatornát a <a href="https://codeforhungary.slack.com">Code for Hungary slacken</a> [tkv] előtaggal] és linkjét írd be a kommentek közé, hogy más is csatlakozhasson!
             </p>
 
             @if ($idea->comments->isNotEmpty())
-                <h4 class="mt-4">Komentarze</h4>
+                <h4 class="mt-4">Hozzászólások</h4>
             @endif
             @foreach($idea->comments as $comment)
                 {{-- Skip hidden comments. --}}
@@ -81,7 +80,7 @@
                 </div>
             @endforeach
 
-            <h4 class="mt-4">Dodaj komentarz:</h4>
+            <h4 class="mt-4">Hozzászólás írása:</h4>
             <form action="/pomysl/{{$idea->id}}/nowy-komentarz" method="post" ref="new-comment" class="mb-2">
                 @csrf
                 <textarea rows="4" name="content" class="w-100" v-validate="'required|max:500'" data-vv-scope="new-comment"></textarea>
