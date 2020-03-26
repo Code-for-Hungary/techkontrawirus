@@ -88,7 +88,7 @@
                     @{{ errors.first('new-comment.content') }}
                 </p>
             </form>
-            <button class="btn btn-primary" @click="saveComment">Zapisz komentarz</button>
+            <button class="btn btn-primary" @click="saveComment">Hozzászólás elküldése</button>
         </div>
     </div>
 @endsection
