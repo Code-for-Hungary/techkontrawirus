@@ -58,7 +58,7 @@
 
         <div class="limit-width">
             <p class="mt-5 mb-5">
-                Használd a hozzászólásokat az ötlet népszerűsítésére és a másokkal közös fejlesztésre. Ha már megegyezésre jutottatok a részletekről, hozz létre egy csatornát a <a href="https://codeforhungary.slack.com">Code for Hungary slacken</a> [tkv] előtaggal] és linkjét írd be a kommentek közé, hogy más is csatlakozhasson!
+                Használd a hozzászólásokat az ötlet népszerűsítésére és a másokkal közös fejlesztésre. Ha már megegyezésre jutottatok a részletekről, hozz létre egy csatornát a <a href="https://codeforhungary.slack.com">Code for Hungary slacken</a> [tkv] előtaggal és linkjét írd be a kommentek közé, hogy más is csatlakozhasson!
             </p>
 
             @if ($idea->comments->isNotEmpty())
