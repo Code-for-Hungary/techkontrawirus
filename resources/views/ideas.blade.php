@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Tech Kontra Wirus | Pomysły')
+@section('title', 'Tech Kontra Vírus | Ötletek')
 
 @section('styles')
     <style>
@@ -93,15 +93,15 @@
             <div class="col-lg-8">
                 <div class="slogans">
                     <p>
-                        <b>Działaj przeciwko COVID-19! Widzisz potrzebę</b>, którą trzeba się zaopiekować? Opowiedz o niej.
-                        <b>Masz pomysł</b> na rozwiązanie? <b>Zaproponuj nowe narzędzie IT</b>,
-                        wykorzystanie lub ulepszenia istniejących.
+                        <b>Tegyél a koronavírus ellen! Van egy ötleted</b>, milyen informatikai alkalmazásra lenne szükség? Írd meg!
+                        <b>Tudod, hogy lehetne megvalósítani? Javasolj fejlesztési megoldást,</b>,
+                        használj fel és fejlessz tovább már létező alkalmazásokat!
                     </p>
-                    <p>Łączymy potrzeby i pomysły z osobami, które programują.</p>
+                    <p>Az oldal célja összekötni az ötleteket, igényeket és olyanokat, akik képesek ezek megvalósítására.</p>
                     <p class="new-idea-cta">
-                        <a class="btn btn-lg btn-primary" href="/nowy-pomysl">Dodaj pomysł</a>
+                        <a class="btn btn-lg btn-primary" href="/nowy-pomysl">Ötlet hozzáadása</a>
                     </p>
-                    <p>Ale najpierw zapoznaj się z pomysłami, które zgłosili inni:</p>
+                    <p>De előtte azért nézz körül, van-e már hasonló:</p>
                 </div>
             </div>
 
@@ -161,7 +161,7 @@
                                     <div class="who_when">
                                         Dodano {{ $idea->getCreatedAtForDisplay() }}
                                     </div>
-                                    <a href="/pomysl/{{ $idea->id }}" class="btn btn-secondary btn-sm" role="button">Więcej</a>
+                                    <a href="/pomysl/{{ $idea->id }}" class="btn btn-secondary btn-sm" role="button">Bővebben</a>
                                 </div>
                                 <div>
                                     @foreach ($idea->categories as $category)
@@ -184,15 +184,14 @@
 
                 <div>
                     <p>
-                        <b>Jesteś programistą/ką?</b> Chcesz pomóc? Oceniaj pomysły, bierz udział w dyskusjach i pracuj z osobami, które je proponują.
+                        <b>Programozó vagy és segítenél?</b> Értékeld az ötleteket, csatlakozz a beszélgetéshez és dolgozz az ügyön annak kiötlőjével!
                     </p>
                     <a class="mt-4 mb-4 d-block" href="https://kodujdlapolski.pl/o-nas/"><img src="/img/logo-kdp.png" width="167" height="77" alt="Koduj dla Polski"></a>
                     <p class="mt-4">
-                        <b><a href="https://kodujdlapolski.pl/o-nas/">Koduj dla Polski</a></b> to społeczność programistów/ek
-                        oraz działaczy/ek społecznych,
-                        która pracuje na rzecz ulepszania otaczającego nas świata. Kodujemy z sensem -
-                        tworzymy różnorodne i skuteczne rozwiązania technologiczne, które odpowiadają
-                        na konkretne wyzwania. Koduj dla Polski jest koordynowane przez <a href="https://epf.org.pl">Fundację ePaństwo</a>.
+                        A <b>Code for Hungary</b> egy aktivistákból és programozókból szerveződő közösség. 
+                        A <a href="https://codeforall.org">Code for All</a> mozgalom tagjaként magyarországi társadalmi kezdeményezéseknek 
+                        kívánunk technológiai segítséget nyújtani és ezáltal társadalmilag hasznos alkalmazások,
+                        programok létrehozását serkenteni. A Code for Hungary-t a <a href="https://k-monitor.hu"><b>K-Monitor</b></a> koordinálja.
                     </p>
                 </div>
 
