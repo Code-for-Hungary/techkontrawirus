@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Tech kontra wirus | Dodaj swój pomysł')
+@section('title', 'Tech Kontra Vírus | Adj hozzá ötletet!')
 
 @section('styles')
     <style>
@@ -51,15 +51,15 @@
 
 @section('content')
     <div id="new-idea" class="container">
-        <h3 class="mt-4 mb-5 text-center">Dodaj swój pomysł</h3>
+        <h3 class="mt-4 mb-5 text-center">Adj hozzá ötletet!</h3>
 
         <form-wizard submit-url="/nowy-pomysl">
             <template v-slot:csrf>@csrf</template>
             <template v-slot:tabs>
-                <tab name="Krok 1" info="Zacznij" :selected="true">
+                <tab name="1. lépés" info="Leírás" :selected="true">
                     <div id="form-step-1" >
                         <div class="form-group limit-width">
-                            <label for="title"><b>Tytuł (max. 150 znaków)</b></label>
+                            <label for="title"><b>Elnevezés (max. 150 karakter)</b></label>
                             <input type="text" name="title" class="form-control" v-validate="'required|max:150'"
                                    data-vv-scope="step1">
                             <p class="text-danger" v-show="errors.has('step1.title')">
@@ -67,8 +67,8 @@
                             </p>
                         </div>
                         <div class="form-group limit-width">
-                            <label for="description"><b>Krótki opis (max. 500 znaków)</b></label><br/>
-                            <i>Prosimy o krótkie opisanie pomysłu w 2-3 zdaniach.</i><br/><br/>
+                            <label for="description"><b>Rövid leírás (max. 500 karakter)</b></label><br/>
+                            <i>Írd le az elképzelésed 2-3 mondatban.</i><br/><br/>
                             <textarea rows="5" name="description" class="form-control" v-validate="'required|max:500'"
                                       data-vv-scope="step1"></textarea>
                             <p class="text-danger" v-show="errors.has('step1.title') || errors.has('step1.description')">
@@ -93,11 +93,11 @@
                         <input type="hidden" name="categories" ref="categories" value=""/>
                     </div>
                 </tab>
-                <tab name="Krok 2" info="Co?">
+                <tab name="2. lépés" info="Mit?">
                     <div id="form-step-2">
                         <div class="form-group limit-width">
-                            <label for="problem"><b>Na jaki problem czy potrzebę ma odpowiadać proponowane rozwiązanie? (max. 1000 znaków)</b></label><br/>
-                            <i>Opisz problem. Uwzględnij kontekst sytuacji i wyzwania. Nie pisz wypracowania, ale pomyśl o różnych czynnikach, które mają wpływ.</i><br/><br/>
+                            <label for="problem"><b>Milyen problémára vagy szükségletre nyújt megoldást a javasolt ötleted? (max. 1000 karakter)</b></label><br/>
+                            <i>Írd körül a problémát. Vedd figyelembe, hogy a körülmények akár napról napra változhatnak. Lehetsz vázlatos, és gondolj át minél több nézőpontot.</i><br/><br/>
                             <textarea name="problem" class="form-control" rows="7" v-validate="'required|max:1000'"
                                       data-vv-scope="step2"></textarea>
                             <p class="text-danger" v-show="errors.has('step2.problem')">
@@ -106,11 +106,11 @@
                         </div>
                     </div>
                 </tab>
-                <tab name="Krok 3" info="Kto?">
+                <tab name="3. lépés" info="Ki?">
                     <div id="form-step-3">
                         <div class="form-group limit-width">
-                            <label for="recipients"><b>Kogo ten problem dotyczy? Kto miałby skorzystać z rozwiązania? (max. 1000 znaków)</b></label><br/>
-                            <i>Napisz kogo dotyka dana sytuacja. Jakie grupy lub instytucje mogłyby pomóc w rozwiązaniu?</i><br/><br/>
+                            <label for="recipients"><b>Kit érint a probléma? Ki fogja az eszközt használni? (max. 1000 karakter)</b></label><br/>
+                            <i>Írd le, kik érintettek a helyzetben. Milyen csoportok vagy intézmények segíthetnek a munkában?</i><br/><br/>
                             <textarea name="recipients" class="form-control" rows="7" v-validate="'required|max:1000'"
                                       data-vv-scope="step3"></textarea>
                             <p class="text-danger" v-show="errors.has('step3.recipients')">
@@ -119,11 +119,11 @@
                         </div>
                     </div>
                 </tab>
-                <tab name="Krok 4" info="Jak?">
+                <tab name="4. lépés" info="Hogyan?">
                     <div id="form-step-4">
                         <div class="form-group limit-width">
-                            <label for="solution"><b>Jaką masz propozycje rozwiązania opisanego wyżej problemu czy potrzeby? (max. 1000 znaków)</b></label><br/>
-                            <i>Czy masz pomysł na narzędzie opierające się o technologie cyfrowe? Jakie inne rozwiązania widzisz?</i><br/><br/>
+                            <label for="solution"><b>Mi a te javaslatod a leírt problémára? (max. 1000 karakter)</b></label><br/>
+                            <i>Van a fejedben digitális technológián alapuló megoldási javaslat? Láttál már hasonlót?</i><br/><br/>
                             <textarea name="solution" class="form-control" rows="7" v-validate="'required|max:1000'"
                                       data-vv-scope="step4"></textarea>
                             <p class="text-danger" v-show="errors.has('step4.solution')">
