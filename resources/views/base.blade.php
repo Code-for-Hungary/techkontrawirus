@@ -25,8 +25,8 @@
     <meta name="theme-color" content="#ffffff">
     <meta property="og:url" content="https://techkontrawirus.pl" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Tech Kontra Wirus" />
-    <meta property="og:description" content="Działaj przeciwko COVID-19! Widzisz potrzebę, którą trzeba zaopiekować? Opowiedz o niej. Masz pomysł na rozwiązanie? Zaproponuj nowe narzędzie IT, wykorzystanie lub ulepszenia istniejących." />
+    <meta property="og:title" content="Tech Kontra Vírus" />
+    <meta property="og:description" content="Tegyél a koronavírus ellen! Van egy ötleted, milyen informatikai alkalmazásra lenne szükség? Írd meg! Tudod, hogy lehetne megvalósítani? Javasolj fejlesztési megoldást, használj fel és fejlessz tovább már létező alkalmazásokat!" />
     <meta property="og:image" content="{{ asset('img/techkontrawirus-social-media-featured.jpg') }}" />
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
@@ -42,7 +42,7 @@
         <div id="header" class="header">
             <div class="container d-flex justify-content-between">
                 <div>
-                    <p class="brand"><a href="/"><span class="icon-shield"></span> Tech Kontra Wirus</a></p>
+                    <p class="brand"><a href="/"><span class="icon-shield"></span> Tech Kontra Vírus</a></p>
                 </div>
                 <div class="d-flex align-items-center font-larger">
                     <a href="#" v-b-modal.faq><b>Jak to działa?</b></a>
@@ -50,26 +50,26 @@
             </div>
 
             <div class="d-none">
-                <b-modal id="faq" size="xl" title="Pytania i odpowiedzi" ok-only>
-                    <p><b>1. Jak to działa?</b></p>
-                    <p>Szukamy pomysłów, które programiści/programistki będa mogli wprowadzić w życie. Zastawiasz się czy Twoja koncepcja jest wystarczająco dobra albo realna? Wrzuć - będziemy wspólnie myśleć. Pamiętaj jednak, że to nie są żarty, nie zaśmiecajmy platformy pomysłami, które nie mają sensu lub są nierzeczywiste. Jesteś programistą/ką. Chcesz pomóc? Oceniaj pomysły, bierz udział w dyskusjach i pracuj z osobami, które je proponują - a gdy będziesz gotowy/a by zacząć implementację, przenieś się na <a href="https://forum.kodujdlapolski.pl/c/tech-kontra-wirus">forum Koduj dla Polski.</a></p>
-                    <p class="mt-4"><b>2. Nie mam pomysłu, ale widzę potrzebę. Co zrobić?</b></p>
-                    <p>Nie masz gotowego pomysłu, za to szukasz rozwiązań? Napisz o potrzebie jaką widzisz, a wspólnie pomyślimy co można zrobić!</p>
-                    <p class="mt-4"><b>3. Jak oceniane są pomysły?</b></p>
-                    <p>Klikasz plus jeśli pomysł Ci się podoba, minus, jeżeli nie uważasz go za dobry. Jakość pomysłu ocenia cała społeczność. Należą do niej wszystkie osoby korzystające z platformy. Każdy może dać głos na tak lub nie danemu pomysłowi. Dodatkowo umożliwiamy możliwość dyskusji pod każdym pomysłem. Oczywiście każda osoba, która zajmuje się programowaniem może również uznać, że dowolny pomysł jej się podoba i po prostu zacząć kodować.</p>
-                    <p class="mt-4"><b>4. Jak pomysły docierają do programistów/ek?</b></p>
-                    <p>Będziemy zachęcać społeczność koderów i koderek do odwiedzania tej strony. Będziemy również przekazywać pomysły przez koordynatorów i koordynatorki <a href="https://kodujdlapolski.pl">Koduj dla Polski</a>.</p>
-                    <p class="mt-4"><b>5. W jakiej kolejności pojawiają się pomysły na stronie?</b></p>
-                    <p>Domyślnie najwyżej pojawiają się pomysły, na które oddano najwięcej głosów na tak.</p>
-                    <p class="mt-4"><b>6. Jakie są zasady korzystania ze strony?</b></p>
+                <b-modal id="faq" size="xl" title="Gyakran ismételt kérdések" ok-only>
+                    <p><b>1. Hogyan működik?</b></p>
+                    <p>Olyan ötleteket gyűjtünk össze, amiket fejlesztők és programozók képesek megvalósítani. Nem vagy benne biztos, hogy jó az ötleted? Írd meg, majd közösen eldöntjük! Ugyanakkor vedd komolyan és ne szemetelj haszontalan, életszerűtlen vagy bagatell ötletekkel. Ha értesz a programozáshoz, kapcsolódj be a beszélgetésbe, értékelj és csatlakozz az ötletek kidolgozásához. Ha úgy érzitek, hogy készen áll egy ötlet a megvalósítására, folytassátok a <a href="https://codeforhungary.slack.com">Code for Hungary slacken</a>.</p>
+                    <p class="mt-4"><b>2. Szükségem van valamire, de nincs konkrét ötletem. Mit tegyek?</b></p>
+                    <p>Valamilyen problémára keresel megoldást, de még nincs kiforrott ötleted? Írd körül, hogy mire lenne szükség a probléma kezeléséhez és találjuk ki közösen a következő lépéseket!</p>
+                    <p class="mt-4"><b>3. Hogyan értékeljük az ötleteket?</b></p>
+                    <p>Kattints az ötlet neve mellett a pluszra, ha tetszik és a mínuszra, ha nem tartod jónak. Egy ötletre mindenkinek egy szavazata van. Így a platformot használók egész közössége által értékelődnek az ötletek. Ezen túl ott vannak a hozzászólások, ahol részletesebben kifejtheted a véleményed. Természetesen bárki saját maga is elkezdhet dolgozni egy-egy ötleten az értékelésektől függetlenül.</p>
+                    <p class="mt-4"><b>4. Hogyan jutnak el az ötletek fejlesztőkhöz?</b></p>
+                    <p>Igyekszünk minél több fejlesztőhöz eljuttatni az oldalt, hogy kövessék az ötleteket.</p>
+                    <p class="mt-4"><b>5. Milyen sorrendben jelennek meg az ötletek az oldalon?</b></p>
+                    <p>A legtöbb pozitív értékelést kapott ötlet jelenik meg legfelül.</p>
+                    <p class="mt-4"><b>6. Mik az oldal használatának szabályai?</b></p>
                     <ol>
-                        <li>Przy generowaniu pomysłów pamiętajcie żeby uwzględniać odpowiednie wytyczne Ministra Zdrowia, Głównego Inspektora Sanitarnego i innych właściwych służb.</li>
-                        <li>Zachęcamy was do refleksji czy pomysły i rozwiązania technologiczne nie są sprzeczne z przepisami prawa.</li>
-                        <li>Zachęcamy do tego aby rozwiązania technologiczne, które powstaną na bazie pomysłów były oparte na zasadach open source i na wolnej licencji.</li>
-                        <li>Dyskusje nie są moderowane, ale zastrzegamy sobie prawo do usuwania treści obraźliwych i zawierających mowę nienawiści. Będziemy również usuwać reklamy i przekazy komercyjne.</li>
+                        <li>Új ötlet megírásakor légy figyelemmel a jogi környezetre (pl. adatvédelem) és az esetleges rendkívüli szabályokra.</li>
+                        <li>Gondold át, hogy az ötleted nem okozhat-e problémát, károkat másoknak, és hogy milyen nem tervezett hatásai lehetnek.</li>
+                        <li>Törekedj rá, hogy a fejlesztés nyílt forráskódú és ingyenes eszközökkel megvalósítható legyen.</li>
+                        <li>A hozzászólásokat nem moderáljuk, de fenntartjuk a jogot a sértő és gyűlöletkeltő tartalom eltávolítására. A kereskedelmi tartalommal rendelkező üzeneteket eltávolítjuk.</li>
                     </ol>
-                    <p class="mt-4"><b>7. Kim jesteście?</b></p>
-                    <p>Niniejsza strona jest projektem <a href="https://epf.org.pl">Fundacji ePaństwo</a>. Jesteśmy organizacją koordynującą działania społeczności <a href="https://kodujdlapolski.pl">Koduj dla Polski</a>. Działamy na rzecz rozwoju demokracji, otwartej i przejrzystej władzy oraz zaangażowania obywatelskiego. Wykorzystując moc Internetu i nowe technologie otwieramy różne zasoby danych publicznych i bezpłatnie udostępniamy je obywatelom. Dajemy obywatelom wiedzę i narzędzia do ulepszania swojego państwa. W dobie zagrożenia koronawirusem pragniemy pomóc tak jak umiemy najlepiej: poprzez technologię dla dobra wspólnego.</p>
+                    <p class="mt-4"><b>7. Ki az oldal üzemeltetője?</b></p>
+                    <p>"Az oldalt a Code for Hungary koordinátora, a <a href="https://k-monitor.hu">K-Monitor</a> üzemelteti. A Code for Hungary egy aktivistákból és önkéntes programozókból szerveződő közösség. A Code for All mozgalom tagjaként magyarországi társadalmi kezdeményezéseknek kívánunk technológiai segítséget nyújtani és ezáltal társadalmilag hasznos alkalmazások, programok létrehozását serkenteni. A K-Monitor egy korrupcióellenes civil szervezet, hisszük, hogy a korrupció legjobb ellenszere az átláthatóság és a társadalmi részvétel.<br>Az oldal lengyel változatát, a <a href="https://techkontrawirus.pl/">techkontrawirus.pl</a>-t a <a href="https://codeforpoland.org/about/">Code for Poland</a> készítette.</p>
                     <p class="text-center mt-4">
                         <img src="/img/logo-epanstwo.svgz" class="svg" width="187" height="63" alt="Fundacja ePanstwo">
                     </p>
