@@ -1,7 +1,7 @@
 # Tech contra virus
 
-This repository contains the code for a PHP, Laravel-based website listing ideas for 
-how technology can help in the 2020 coronavirus crisis. Visitors can submit new ideas, 
+This repository contains the code for a PHP, Laravel-based website listing ideas for
+how technology can help in the 2020 coronavirus crisis. Visitors can submit new ideas,
 comment on them, and vote +1 / -1 indicating their support.
 
 ## Running
@@ -12,14 +12,14 @@ Set up a MariaDB / MySQL database and schema to be used by the application.
 
 Then, run the following commands:
 
-    git clone https://github.com/epforgpl/techkontrawirus.git
+    git clone https://github.com/k-monitor/techkontrawirus.git
     cd techkontrawirus
     composer install
     npm install
     npm run dev
     cp .env.example .env
     php artisan key:generate
-    
+
 At this point, please edit the `.env` file, setting at least the variables
 responsible for DB connection.
 
@@ -31,16 +31,16 @@ To create all the required tables in the database and seed it with example data,
 Finally, run:
 
     php artisan serve
-    
+
 A locally running website will then be available at [http://localhost:8000](http://localhost:8000).
 
 ## Deployment
 
-Please see the related repo [https://github.com/epforgpl/techkontrawirus-docker](https://github.com/epforgpl/techkontrawirus-docker) for code that makes deploying this easy.
+Please see the related repo [https://github.com/k-monitor/techkontrawirus-docker](https://github.com/k-monitor/techkontrawirus-docker) for code that makes deploying this easy.
 
 ## Author
 
-The code in this repository was produced by [Fundacja ePaństwo](https://epf.org.pl).
+The code in this repository was produced by [Fundacja ePaństwo](https://epf.org.pl). Translated to Hungarian and slightly modified by [K-Monitor](https://k-monitor.hu/).
 
 ## License
 
