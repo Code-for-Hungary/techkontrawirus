@@ -89,7 +89,11 @@
 
             </div>
         </cookie-law>
-        <span class="mr-2">&copy; 2020</span><a href="https://k-monitor.hu/"><img src="/img/kmonitor-sm.png" class="d-block ml-2" width="154" height="42" alt="K-Monitor"></a>
+        <span class="mr-2">&copy; 2020</span>
+        <a href="https://epf.org.pl"><img src="/img/logo-epanstwo.svgz" class="d-block ml-2" width="124" height="42" alt="Fundacja ePanstwo"></a>
+        <a href="https://k-monitor.hu/"><img src="/img/kmonitor-sm.png" class="d-block ml-2" width="154" height="42" alt="K-Monitor"></a>
+        <span><img src="/img/c4hu_logo.png" class="d-block ml-2" width="66" height="42" alt="Code 4 Hungary"></span>
+        <a href="https://kodujdlapolski.pl/o-nas/"><img src="/img/logo-kdp.png" class="d-block ml-2" width="91" height="42" alt="Koduj dla Polski"></a>
     </footer>
 
     <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
