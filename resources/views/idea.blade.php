@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', "Tech kontra vírus | Ötlet nr $idea->id")
+@section('title', "Tech kontra vírus | Ötlet #$idea->id")
 
 @section('styles')
 @endsection

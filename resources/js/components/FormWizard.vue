@@ -21,13 +21,13 @@
         </form>
         <div class="d-flex justify-content-around">
             <div class="control" v-if="currentActive > 0">
-                <button @click="previousTab()" class="btn btn-primary">Poprzednie</button>
+                <button @click="previousTab()" class="btn btn-primary">Vissza</button>
             </div>
             <div class="control" v-if="currentActive < totalTabs - 1">
-                <button @click="nextTab()" class="btn btn-primary">Następne</button>
+                <button @click="nextTab()" class="btn btn-primary">Következő</button>
             </div>
             <div class="control" v-if="currentActive == totalTabs -1" >
-                <button @click="submit()" class="btn btn-primary">Zapisz</button>
+                <button @click="submit()" class="btn btn-primary">Elküld</button>
             </div>
         </div>
     </div>
