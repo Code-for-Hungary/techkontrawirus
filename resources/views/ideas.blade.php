@@ -106,7 +106,7 @@
             </div>
 
             <div class="col-lg-4">
-                <img class="img-tech-brain" src="{{ asset('img/tech-brain.svg') }}" />
+                <img class="img-tech-brain" src="/img/tech-brain.svg" />
             </div>
         </div>
 
