@@ -186,7 +186,7 @@
                     <p>
                         <b>Programozó vagy és segítenél?</b> Értékeld az ötleteket, csatlakozz a beszélgetéshez és dolgozz az ügyön annak kiötlőjével!
                     </p>
-                    <span class="mt-4 mb-4 d-block"><img src="/img/c4hu_logo.png" width="200" height="127" alt="Code 4 Hungary"></span>
+                    <a href="https://k-monitor.hu/tevekenysegek/20200401-code-for-hungary" class="mt-4 mb-4 d-block"><img src="/img/c4hu_logo.png" width="200" height="127" alt="Code 4 Hungary"></a>
                     <p class="mt-4">
                         A <b>Code for Hungary</b> egy aktivistákból és programozókból szerveződő közösség.
                         A <a href="https://codeforall.org">Code for All</a> mozgalom tagjaként magyarországi társadalmi kezdeményezéseknek
