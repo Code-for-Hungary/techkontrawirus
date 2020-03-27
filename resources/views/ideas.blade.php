@@ -186,10 +186,10 @@
                     <p>
                         <b>Programozó vagy és segítenél?</b> Értékeld az ötleteket, csatlakozz a beszélgetéshez és dolgozz az ügyön annak kiötlőjével!
                     </p>
-                    <a class="mt-4 mb-4 d-block" href="https://kodujdlapolski.pl/o-nas/"><img src="/img/logo-kdp.png" width="167" height="77" alt="Koduj dla Polski"></a>
+                    <span class="mt-4 mb-4 d-block"><img src="/img/c4hu_logo.png" width="200" height="127" alt="Code 4 Hungary"></span>
                     <p class="mt-4">
-                        A <b>Code for Hungary</b> egy aktivistákból és programozókból szerveződő közösség. 
-                        A <a href="https://codeforall.org">Code for All</a> mozgalom tagjaként magyarországi társadalmi kezdeményezéseknek 
+                        A <b>Code for Hungary</b> egy aktivistákból és programozókból szerveződő közösség.
+                        A <a href="https://codeforall.org">Code for All</a> mozgalom tagjaként magyarországi társadalmi kezdeményezéseknek
                         kívánunk technológiai segítséget nyújtani és ezáltal társadalmilag hasznos alkalmazások,
                         programok létrehozását serkenteni. A Code for Hungary-t a <a href="https://k-monitor.hu"><b>K-Monitor</b></a> koordinálja.
                     </p>
