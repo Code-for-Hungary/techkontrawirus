@@ -159,7 +159,7 @@
                             <div class="card-body">
                                 <div class="d-flex justify-content-between">
                                     <div class="who_when">
-                                        Dodano {{ $idea->getCreatedAtForDisplay() }}
+                                        Hozzáadva ekkor: {{ $idea->getCreatedAtForDisplay() }}
                                     </div>
                                     <a href="/pomysl/{{ $idea->id }}" class="btn btn-secondary btn-sm" role="button">Bővebben</a>
                                 </div>
