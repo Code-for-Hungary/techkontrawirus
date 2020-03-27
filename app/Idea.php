@@ -22,7 +22,7 @@ class Idea extends Model
     public function getCreatedAtForDisplay() : string
     {
         $date_time = \DateTime::createFromFormat('Y-m-d H:i:s', $this->created_at);
-        return $date_time->format('d.m.Y') . ' r. o ' . $date_time->format('H:i');
+        return $date_time->format('Y.m.d. H:i');
     }
 
     public function getCategoriesString() : string

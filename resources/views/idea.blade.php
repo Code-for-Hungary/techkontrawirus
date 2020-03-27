@@ -36,7 +36,7 @@
             </div>
             <div class="card-body">
                 <div class="who_when">
-                    Dodano {{ $idea->getCreatedAtForDisplay() }}
+                    Hozzáadva ekkor: {{ $idea->getCreatedAtForDisplay() }}
                 </div>
                 <div>
                     @foreach ($idea->categories as $category)
