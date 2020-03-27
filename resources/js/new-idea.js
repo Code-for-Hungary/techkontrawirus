@@ -7,12 +7,18 @@ Vue.use(ButtonPlugin);
 import { ButtonToolbarPlugin } from 'bootstrap-vue';
 Vue.use(ButtonToolbarPlugin);
 
-// Provide localized error messages for Polish.
+// Provide localized error messages for Polish and Hungarian.
 const dictionary = {
     pl: {
         messages: {
             required: () => 'To pole jest wymagane.',
             max: (i, j) => 'To pole może mieć maksymalnie ' + j + ' znaków.'
+        }
+    },
+    hu: {
+        messages: {
+            required: () => 'A mező kitöltése kötelező.',
+            max: (i, j) => 'A mező értéke legfeljebb ' + j + ' karakter hosszú lehet.'
         }
     }
 };

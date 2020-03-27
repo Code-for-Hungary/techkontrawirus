@@ -52,7 +52,7 @@
         },
         created() {
             this.tabs = this.$children;
-            this.$root.$validator.localize('pl');
+            this.$root.$validator.localize('hu');
         },
         mounted() {
             this.totalTabs = this.tabs.length;
