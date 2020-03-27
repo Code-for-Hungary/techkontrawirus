@@ -74,7 +74,7 @@
                                     :vote-on-load="{{ $voting_history->getCommentVote($comment->id) }}"></plus-minus>
                     </div>
                     <div class="card-body">
-                        <div class="who_when">Dodano {{ $comment->getCreatedAtForDisplay() }}</div>
+                        <div class="who_when">Hozzáadva ekkor: {{ $comment->getCreatedAtForDisplay() }}</div>
                         <div>{{ $comment->content }}</div>
                     </div>
                 </div>
