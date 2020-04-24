@@ -23,7 +23,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:url" content="https://techkontrawirus.pl" />
+    <meta property="og:url" content="https://tkv.code4.hu" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Tech Kontra Vírus" />
     <meta property="og:description" content="Tegyél a koronavírus ellen! Van egy ötleted, milyen informatikai alkalmazásra lenne szükség? Írd meg! Tudod, hogy lehetne megvalósítani? Javasolj fejlesztési megoldást, használj fel és fejlessz tovább már létező alkalmazásokat!" />
