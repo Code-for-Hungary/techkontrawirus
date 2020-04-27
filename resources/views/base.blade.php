@@ -27,7 +27,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Tech Kontra Vírus" />
     <meta property="og:description" content="Tegyél a koronavírus ellen! Van egy ötleted, milyen informatikai alkalmazásra lenne szükség? Írd meg! Tudod, hogy lehetne megvalósítani? Javasolj fejlesztési megoldást, használj fel és fejlessz tovább már létező alkalmazásokat!" />
-    <meta property="og:image" content="{{ asset('img/techkontrawirus-social-media-featured.jpg') }}" />
+    <meta property="og:image" content="{{ asset('img/otletdoboz.png') }}" />
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
 
