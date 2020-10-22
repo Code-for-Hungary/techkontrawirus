@@ -52,13 +52,13 @@
             <div class="d-none">
                 <b-modal id="faq" size="xl" title="Gyakran ismételt kérdések" ok-only>
                     <p><b>1. Hogyan működik?</b></p>
-                    <p>Olyan ötleteket gyűjtünk össze, amiket fejlesztők és programozók képesek megvalósítani. Nem vagy benne biztos, hogy jó az ötleted? Írd meg, majd közösen eldöntjük! Ugyanakkor vedd komolyan és ne szemetelj haszontalan, életszerűtlen vagy bagatell ötletekkel. Ha értesz a programozáshoz, kapcsolódj be a beszélgetésbe, értékelj és csatlakozz az ötletek kidolgozásához. Ha úgy érzitek, hogy készen áll egy ötlet a megvalósítására, folytassátok a <a href="https://codeforhungary.slack.com">Code for Hungary slacken</a>.</p>
+                    <p>Olyan ötleteket gyűjtünk össze, amiket fejlesztők és programozók képesek megvalósítani. Nem vagy benne biztos, hogy jó az ötleted? Írd meg, majd közösen eldöntjük! Ugyanakkor vedd komolyan és ne szemetelj haszontalan, életszerűtlen vagy bagatell ötletekkel. Ha értesz a programozáshoz, kapcsolódj be a beszélgetésbe, értékelj és <a href="https://docs.google.com/forms/d/e/1FAIpQLSeep6bUaI0nC-ZelkPjdUdw_kvzAJu2XJc8qpNhAJeIRSyZEA/viewform" target="new">csatlakozz ezen a formon</a> az ötletek kidolgozásához. Ha úgy érzitek, hogy készen áll egy ötlet a megvalósítására, folytassátok a <a href="https://codeforhungary.slack.com">Code for Hungary slacken</a>.</p>
                     <p class="mt-4"><b>2. Szükségem van valamire, de nincs konkrét ötletem. Mit tegyek?</b></p>
                     <p>Valamilyen problémára keresel megoldást, de még nincs kiforrott ötleted? Írd körül, hogy mire lenne szükség a probléma kezeléséhez és találjuk ki közösen a következő lépéseket!</p>
                     <p class="mt-4"><b>3. Hogyan értékeljük az ötleteket?</b></p>
                     <p>Kattints az ötlet neve mellett a pluszra, ha tetszik és a mínuszra, ha nem tartod jónak. Egy ötletre mindenkinek egy szavazata van. Így a platformot használók egész közössége által értékelődnek az ötletek. Ezen túl ott vannak a hozzászólások, ahol részletesebben kifejtheted a véleményed. Természetesen bárki saját maga is elkezdhet dolgozni egy-egy ötleten az értékelésektől függetlenül.</p>
                     <p class="mt-4"><b>4. Hogyan jutnak el az ötletek fejlesztőkhöz?</b></p>
-                    <p>Igyekszünk minél több fejlesztőhöz eljuttatni az oldalt, hogy kövessék az ötleteket.</p>
+                    <p>Igyekszünk minél több fejlesztőhöz eljuttatni az oldalt, hogy kövessék az ötleteket. Ha ismersz olyan embereket, csoportokat, akik szívesen segítenének, szólj nekik, juttasd el az oldalt hozzájuk!</p>
                     <p class="mt-4"><b>5. Milyen sorrendben jelennek meg az ötletek az oldalon?</b></p>
                     <p>A legtöbb pozitív értékelést kapott ötlet jelenik meg legfelül.</p>
                     <p class="mt-4"><b>6. Mik az oldal használatának szabályai?</b></p>
