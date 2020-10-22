@@ -184,7 +184,7 @@
 
                 <div>
                     <p>
-                        <b>Programozó vagy és segítenél?</b> Értékeld az ötleteket, csatlakozz a beszélgetéshez és dolgozz az ügyön annak kiötlőjével!
+                        <b>Programozó vagy és segítenél?</b> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeep6bUaI0nC-ZelkPjdUdw_kvzAJu2XJc8qpNhAJeIRSyZEA/viewform" target="new">Jelentkezz csapatunkba!</a> Értékeld az ötleteket, csatlakozz a beszélgetéshez és dolgozz az ügyön annak kiötlőjével!
                     </p>
                     <a href="https://k-monitor.hu/tevekenysegek/20200401-code-for-hungary" class="mt-4 mb-4 d-block"><img src="/img/c4hu_logo.png" width="200" height="127" alt="Code 4 Hungary"></a>
                     <p class="mt-4">
