@@ -113,12 +113,12 @@
         <div class="row mt-3">
             <div class="col-lg-8">
                 <div class="mb-3">
-                    <p class="slogans mb-3"><b>Filtr kategorii</b></p>
+                    <p class="slogans mb-3"><b>Kategóriák</b></p>
                     <div>
                         <b-button-toolbar class="d-flex">
                             <b-button size="sm" variant="primary" @click="setCategory(null)"
                                       class="tkw" :class="category === null ? 'pressed' : ''">
-                                wszystkie
+                                mind
                             </b-button>
                             @foreach ($categories as $category)
                                 <b-button size="sm" @click="setCategory({{$category->id}})"
@@ -131,15 +131,15 @@
                 </div>
 
                 <div class="mb-3">
-                    <p class="slogans mb-3"><b>Kolejność</b></p>
+                    <p class="slogans mb-3"><b>Rendezés</b></p>
                     <div>
                         <b-button size="sm" variant="primary" @click="setSorting('votes')" class="tkw"
                                   :class="sorting === 'votes' ? 'active' : ''">
-                            najwyżej ocenione
+                            legjobb értékelés
                         </b-button>
                         <b-button size="sm" variant="primary" @click="setSorting('dates')" class="tkw"
                                   :class="sorting === 'dates' ? 'active' : ''">
-                            najnowsze
+                            legújabb
                         </b-button>
                     </div>
                 </div>
