@@ -76,8 +76,8 @@
                             </p>
                         </div>
                         <div class="form-group limit-width">
-                            <label for="categories"><b>Kategorie</b></label><br/>
-                            <i>Zaznacz jakich tematów dotyczy pomysł.</i><br/><br/>
+                            <label for="categories"><b>Kategóriák</b></label><br/>
+                            <i>Jelöld meg, milyen kategóiá(k)ba tarozik az ötleted!</i><br/><br/>
                             <div>
                                 <b-button-toolbar class="d-flex">
                                     @foreach ($categories as $category)
