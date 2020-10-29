@@ -93,13 +93,14 @@
             <div class="col-lg-8">
                 <div class="slogans">
                     <p>
-                        <b>Tegyél a koronavírus ellen! Van egy ötleted</b>, milyen informatikai alkalmazásra lenne szükség? Írd meg!
-                        <b>Tudod, hogy lehetne megvalósítani? Javasolj fejlesztési megoldást,</b>,
+                        <b>Tegyél a koronavírus hatásai ellen! Van egy ötleted</b>, milyen informatikai alkalmazásra lenne szükség? Írd meg!
+                        <b>Tudod, hogy lehetne megvalósítani? Javasolj fejlesztési megoldást</b>,
                         használj fel és fejlessz tovább már létező alkalmazásokat!
                     </p>
                     <p>Az oldal célja összekötni az ötleteket, igényeket és olyanokat, akik képesek ezek megvalósítására.</p>
+                    <p>Ha beküldöd az ötleted, az megjelenik az alábbi listában, amiből így a Code for Hungary közösség hozzászólásai, véleményei és munkája során akár megvalósult projekt is lehet!</p>
                     <p class="new-idea-cta">
-                        <a class="btn btn-lg btn-primary" href="/nowy-pomysl">Ötlet hozzáadása</a>
+                        <a class="btn btn-lg btn-primary" href="/nowy-pomysl">Új ötlet hozzáadása</a>
                     </p>
                     <p>De előtte azért nézz körül, van-e már hasonló:</p>
                 </div>
