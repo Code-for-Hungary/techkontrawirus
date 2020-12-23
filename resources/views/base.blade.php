@@ -68,7 +68,16 @@
                         <li>Törekedj rá, hogy a fejlesztés nyílt forráskódú és ingyenes eszközökkel megvalósítható legyen.</li>
                         <li>A hozzászólásokat nem moderáljuk, de fenntartjuk a jogot a sértő és gyűlöletkeltő tartalom eltávolítására. A kereskedelmi tartalommal rendelkező üzeneteket eltávolítjuk.</li>
                     </ol>
-                    <p class="mt-4"><b>7. Ki az oldal üzemeltetője?</b></p>
+                    <p class="mt-4"><b>8. Más, társadalmilag hasznos ötletem/technológiai igényem van. Mit tehetek?</b></p>
+                    <p><a href="mailto:juhasz.attila@k-monitor.hu">Írj nekünk</a> és meglátjuk. Korlátosak a kapacitásaink, egy kört szívesen futunk új ötletekről.<br>
+                    Vagy megpróbálhatsz fejlesztői támogatást szerezni az alábbi oldalakon:
+                    <ol>
+                        <li><a href="https://www.donatecode.com/">donatecode</a>
+                        <li><a href="https://www.coding4good.net/about">Coding for Good</a>
+                        <li><a href="https://app.code4socialgood.org/">Coding for Social Good</a>
+                        <li><a href="https://socialcoder.org/Home/Index">Social Coder</a>
+                    </p>
+                    <p class="mt-4"><b>8. Ki az oldal üzemeltetője?</b></p>
                     <p>Az oldalt a Code for Hungary koordinátora, a <a href="https://k-monitor.hu">K-Monitor</a> üzemelteti. A Code for Hungary egy aktivistákból és önkéntes programozókból szerveződő közösség. A Code for All mozgalom tagjaként magyarországi társadalmi kezdeményezéseknek kívánunk technológiai segítséget nyújtani és ezáltal társadalmilag hasznos alkalmazások, programok létrehozását serkenteni. A K-Monitor egy korrupcióellenes civil szervezet, hisszük, hogy a korrupció legjobb ellenszere az átláthatóság és a társadalmi részvétel.<br>Az oldal lengyel változatát, a <a href="https://techkontrawirus.pl/">techkontrawirus.pl</a>-t a <a href="https://codeforpoland.org/about/">Code for Poland</a>ot koordináló <a href="https://epf.org.pl/en/">ePaństwo Foundation</a> készítette.</p>
                     <p class="text-center mt-4">
                         <img src="/img/kmonitor.png" class="svg" width="311" height="97" alt="K-Monitor">
